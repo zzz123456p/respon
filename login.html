@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(function() {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+				$("#borderlan").load("borderlan.html");
+				
+			})
+		</script>
+	</head>
+
+	<body>
+
+		<div class="login">
+			<div class="mask">
+				<div id="header"></div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-4 col-xs-4"></div>
+						<div class="center-block1 col-lg-4">
+							<span class="fontf">-登录-</span>
+							<span class="fontth">LOGIN</span>
+						</div>
+						<div class="col-lg-4 col-xs-4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<form>
+					<div class="form-group">
+						<div class="sou">
+							<span class="name">用户名或邮箱</span>
+							<input type="text" class="shuru">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="sou">
+							<span class="name">密码</span>
+							<input type="password" class="shuru">
+						</div>
+					</div>
+					<div class="jizhu checkbox">
+						<label>
+							<input type="checkbox">记住我（请在私人计算机上使用此功能）
+						    </label>
+					</div>
+
+					<div class="bottomhe">
+						<input type="submit" id="denglu" value="登录">
+						<a href="regist.html"><input type="button" id="zhuce" value="注册"></a>
+						<div class="dengzi">
+							第三方帐号登录:
+							<i class="qq"></i>
+							<i class="weixin"></i>
+						</div>
+					</div>
+			
+			</form>
+		</div>
+		<div class="col-lg-4"></div>
+
+		</div>
+		<div class="container-fluid">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<div class="fontti">
+					<span class="tishi">温馨提示</span><br>
+					<span class="tishizi">1、实际使用之前，需配置用户管理组件中的相关邮件。详情请参考教程:</span><span class="redzi">《用户<br>
+        		管理中相关邮件的配置》</span>
+					<span class="tishizi">2、新用户注册后的审核方式有三种：自动核准、邮件激活、需要管理员批准（即人工审核），详情可参考教程</span>
+					<span class="redzi">《如何设置用户注册后的审核方式》</span><br>
+					<span class="redzi">3、微信登录仅供测试，如需开通请另行购买。</span>
+				</div>
+
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+		<div id="footer"></div>
+		<div id="borderlan"></div>
+
+	</body>
+	<script type="text/javascript">
+		function setCookie(name, value, iDay) {
+
+			var oDate = new Date();
+			oDate.setDate(oDate.getDate() + iDay);
+			document.cookie = name + "=" + value + ';expires=' + oDate;
+			//					理解
+
+			//                  想要删除的话就把日期换成一个负的值
+
+			//                  cookie:大小不能超过4kb,个数不能超过50个,ie6:20个,
+			//                   同域名下共享一套cookie.cookie不能跨域
+			//                  没有api
+
+			//                  get会保存在浏览器的历史记录中,不安全
+		}
+
+		function getCookie(name) {
+			var a = document.cookie.split("; ");
+			console.log(a);
+			for(var i = 0; i < a.length; i++) {
+				var arr = a[i].split("=");
+
+				if(arr[0] == name) {
+					return arr[1];
+				}
+			}
+		}
+		var in1 = document.querySelectorAll(".shuru");
+		var anniu = document.querySelector("#denglu");
+		var a = document.cookie.split("; ");
+		var bool = false;
+		anniu.onclick = function() {
+			for(var i = 0; i < a.length; i++) {
+				var arr = a[i].split("=");
+				if(arr[0] == in1[0].value) {
+					if(arr[1] == in1[1].value) {
+						bool = true;
+						alert("登陆成功");
+						window.open("index.html#id="+ in1[0].value, "_self");
+//                  window.location.href("index.html");
+					}
+				}
+			}
+			if(!bool) {
+				//      		console.log("请输入正确的用户名密码");
+				alert("请输入正确的用户名密码");
+
+			} else {
+				bool = false;
+			}
+		}
+	</script>
+
+</html>

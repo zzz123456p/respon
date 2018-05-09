@@ -1,0 +1,163 @@
+.login{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background:url(../img/banner.jpg);
+	background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: 0 37%;
+}
+.mask{
+	width:100%;
+	height:400px;
+	position:absolute;
+	top:0;
+	z-index:3;
+	background:rgba(0,0,0,.3);
+}
+.center-block1{
+	position: relative;
+  	height: 240px;
+}
+  .center-block1 .fontf{
+  	position: absolute;
+  	top: 70px;
+    left:180px;
+  	font-size:36px;
+  	font-family:"微软雅黑";
+  	color: #FFFFFF;
+  	text-align:center;
+  }
+  .center-block1 .fontth {
+  	position: absolute;
+  	top: 110px;
+    left:200px;
+  	margin-top:30px;
+  	font-size:18px;
+  	color:#FFFFFF;
+  	text-align:center;
+  }
+  
+
+span.name{
+	display:block;
+	float:left;
+	margin-top:10px;
+	font-size:12px;
+	color:#333333;
+}
+
+.sou{
+	position: relative;
+	float: left;
+    width:478px;
+    color: #999;
+    margin-top:10px;
+}
+.sou .shuru{
+	float: right;
+	width: 64%;
+	height: 30px;
+	 border-radius: 3px;
+	color: #333333;
+	font-size:13px;
+	border: 1px solid #DDDDDD;
+	background: #F5F5F5;
+}
+.jizhu{
+	
+	float: right;
+	margin-top:10px;
+	font-size:12px;
+	color:#8d9095;
+}
+
+.bottomhe{
+	float: left;
+	margin-top: 30px;
+	width:478px;
+	height:144px;
+	border-top:1px solid #E0E0E0;
+}
+#denglu{
+	float: left;
+	margin-top: 20px;
+	width:48px;
+	height:30px;
+	background:black;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	color:#FFFFFF;
+	line-height:30px;
+	text-align:center;
+}
+#zhuce{
+	float: left;
+	margin-top: 20px;
+	margin-left:18px;
+	width:48px;
+	height:30px;
+	background:#FFFFFF;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	color:#333333;
+	line-height:30px;
+	text-align:center;
+}
+
+.dengzi{
+	width:180px;
+	height:25px;
+	margin-top: 60px;
+	font-size:12px;
+	color:#8d9095;
+}
+.bottomhe i{
+	background: url(../img/social_icon_32x32.png) no-repeat;
+  	display: inline-block;
+  	vertical-align: middle;
+}
+
+i.qq{
+	width: 32px;
+	height: 31px;
+	background-position:-65px -65px;
+}
+i.weixin{
+	width: 32px;
+	height: 31px;
+	background-position:-0px -65px;
+}
+
+.tishi{
+	display: block;
+	float: left;
+	color: rgb(102, 102, 102);
+	font-size: 14px;
+	font-weight:700;
+	font-family: "微软雅黑";
+}
+
+.tishizi{
+	display: block;
+	float: left;
+	color: rgb(102, 102, 102);
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.redzi{
+	display: block;
+	float: left;
+	color: #e04f67;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.fontti{
+	float: left;
+	margin-top: 50px;
+	width: 510px;
+	height: 150px;
+}

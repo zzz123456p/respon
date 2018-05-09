@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width =device-width, initial-scale=1, maximum-scale=1" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<script src="js/jquery-2.1.0.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="cbl">
+			<span class="o1"> 
+	     		<i class="dianhua"></i>
+	     	</span>
+			<span class="o2">
+	     		<i class="qq"></i>
+	     	</span>
+			<span class="o3" style="background:rgb(242, 117, 103) ;">
+	     		<i class="weixin"></i>
+	     	</span>
+			<span class="o4">
+	     		<i class="weibo"></i>
+	     	</span>
+			<span class="o5">
+	     		<i class="top"></i>
+	     	</span>
+		</div>
+		
+		
+	</body>
+	<script>
+		 $(function(){
+				$(window).scroll(function(){
+					if($(window).scrollTop()>=300){
+					$('.cbl>.o5').fadeIn(300);
+				}else{
+					$('.cbl>.o5').fadeIn(300);
+				}
+			});
+			$('.cbl>.o5').click(function(){$('html,body').animate({scrollTop:'0px'},500);});
+			})
+		
+		
+	</script>
+</html>

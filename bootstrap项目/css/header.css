@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	/*去掉下划线*/
+	text-decoration: none;
+}
+img{
+	/*图片没有边框*/
+	border: 0;
+}
+/*.inner{
+	width: 1140px;
+	margin: auto;
+}*/
+/*导航*/
+.nav_1{
+	width: 100%;
+	height: 66px;
+	background: #1f0c07;
+}
+.nav_1>.nav_2>.logo{
+	width: 20%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+.nav_1>.nav_2>.logo>a>img{
+	width: 54px;
+	height: 36px;
+	margin: 0 0 0 105px;
+}
+.nav_1>.nav_2>.collapse{
+	width: 80%;
+	height: 66px;
+	/*background: blue;*/
+	float: right;
+	position: relative;
+}
+.nav_1>.nav_2>.collapse>.nav{
+	width: 415px;
+	/*width: 100%;*/
+	height: 100%;
+	position: absolute;
+	right: 105px;
+	top: 10px;
+}
+.nav_1>.nav_2>.collapse>.nav>.li_1{
+	float: left;
+	line-height: 66px;
+	color: white;
+}
+.nav_1>.nav_2>.collapse>.nav>.li_1>a{
+	color: #fbfbfb;
+	text-decoration: none;
+}
+.nav_1>.nav_2>.collapse>.nav>.li_1>a:hover{
+	color: #c18d03;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	/*去掉下划线*/
+	text-decoration: none;
+}
+img{
+	/*图片没有边框*/
+	border: 0;
+}
+.banner{
+	width: 100%;
+	height: 605px;
+	margin-top: 66px;
+}
+.banner>.ban{
+	float: left;
+}
+.banner>.banner_1{
+	width: 100%;
+	height: 100%;
+	background: url(../img/datu1.jpg) center;
+	background-size: cover;
+}
+.banner>.banner_1>.zhegai{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	position: relative;
+}
+.banner>.banner_1>.zhegai>.logo{
+	width: 175px;
+	height: 70px;
+	/*background: red;*/
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.banner>.banner_1>.zhegai>.logo>.left{
+	width: 87px;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+}
+.banner>.banner_1>.zhegai>.logo>.left>img{
+	width: 80%;
+	height: 80%;
+}
+.banner>.banner_1>.zhegai>.logo>.right{
+	width: 87px;
+	height: 70px;
+	/*background: yellow;*/
+	float: right;
+}
+.banner>.banner_1>.zhegai>.logo>.right>.top{
+	line-height: 35px;
+	text-align: center;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.banner>.banner_1>.zhegai>.logo>.right>.bottom{
+	width: 87px;
+	height: 35px;
+	font-size: 20px;
+	color: #CCCCCC;
+}
+.banner>.banner_1>.zhegai>.logo>.right>.bottom>.tu_1{
+	width: 43px;
+	height: 35px;
+	/*background: red;*/
+	float: left;
+}
+.banner>.banner_1>.zhegai>.logo>.right>.bottom>.tu_1>span{
+	line-height: 35px;
+	padding-left: 14px;
+}
+.banner>.banner_1>.zhegai>.zi_1{
+	/*width: 500px;
+	height: 65px;*/
+	position: absolute;
+	top: 25%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.banner>.banner_1>.zhegai>.zi_1>p{
+	color: white;
+	font: 800 55px "微软雅黑";
+	text-align: center;
+}
+.banner>.banner_1>.zhegai>.zi_2{
+	/*width: 500px;
+	height: 65px;*/
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.banner>.banner_1>.zhegai>.zi_2>p{
+	color: white;
+	font: 500 14px "微软雅黑";
+	text-align: center;
+}
+.banner>.banner_1>.zhegai>.liangtu{
+	width: 377px;
+	position: absolute;
+	top: 70%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.banner>.banner_1>.zhegai>.liangtu>a>.tu_1{
+	float: left;
+	width: 180px;
+	height: 54px;
+	/*background: blue;*/
+	border-radius: 10px;
+}
+.banner>.banner_1>.zhegai>.liangtu>a>.left{
+	background: url(../img/banner-yi.png) center no-repeat;
+	background-size: cover;
+}
+.banner>.banner_1>.zhegai>.liangtu>a>.right{
+	float: right;
+	background: url(../img/banner-er.png) center no-repeat;
+	background-size: cover;
+}
+.banner>.banner_1>.zhegai>.zi_3{
+	/*width: 500px;
+	height: 65px;*/
+	position: absolute;
+	bottom: 5%;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.banner>.banner_1>.zhegai>.zi_3>p{
+	color: white;
+	font: 500 14px "微软雅黑";
+	text-align: center;
+}
+/*第一次约会，跳过小谈话*/
+.diyiciyuehui{
+	width: 100%;
+	/*height: 719px;*/
+	background: #f6f6f6;
+	/*padding: 30px 100px 10px 20%;*/
+}
+.diyiciyuehui>.shouji{
+	position: relative;
+	height: 719px;
+}
+.diyiciyuehui>.shouji>img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.diyiciyuehui>.zi{
+	position: relative;
+	height: 419px;
+}
+.diyiciyuehui>.zi>.p_1{
+	font: 500 35px "微软雅黑";
+	color: black;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.diyiciyuehui>.zi>.p_2{
+	font: 400 15px "微软雅黑";
+	color: black;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*锁定约会*/
+.suodingyuehui{
+	width: 100%;
+	/*height: 719px;*/
+	background: #FFFFFF;
+	/*padding: 30px 100px 10px 20%;*/
+}
+.suodingyuehui>.shouji{
+	position: relative;
+	height: 719px;
+}
+.suodingyuehui>.shouji>img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.suodingyuehui>.zi{
+	position: relative;
+	height: 419px;
+}
+.suodingyuehui>.zi>.p_1{
+	font: 500 35px "微软雅黑";
+	color: black;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.suodingyuehui>.zi>.p_2{
+	font: 400 15px "微软雅黑";
+	color: black;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*如何使用dine*/
+.dine{
+	width: 100%;
+	/*height: 719px;*/
+	background: #f6f6f6;
+	/*padding: 30px 20% 10px 20%;*/
+	position: relative;
+}
+.dine>.shouji{
+	position: relative;
+	height: 719px;
+}
+.dine>.shouji>img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.dine>.zi{
+	height: 619px;
+	position: relative;
+}
+.dine>.zi>.p_1{
+	font: 500 35px "微软雅黑";
+	color: black;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.dine>.zi>.p_2{
+	font: 400 15px "微软雅黑";
+	color: black;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.dine>.zi>.da_si{
+	width: 400px;
+	position: absolute;
+	top: 40%;
+	/*left: 0;
+	right: 0;
+	margin: auto;*/
+}
+.dine>.zi>.da_si>ul>li{
+	width: 200px;
+	/*background: red;*/
+	float: left;
+}
+.dine>.zi>.da_si>ul>li>.tu{
+	width: 59px;
+	height: 55px;
+	margin: auto;
+}
+.dine>.zi>.da_si>ul>li>.p_1{
+	margin-top: 10px;
+	text-align: center;
+}
+.dine>.zi>.da_si>ul>li>.p_2{
+	margin-top: 10px;
+	text-align: center;
+}
+/*banner图*/
+.banner_2{
+	width: 100%;
+	height: 396px;
+	background: url(../img/banner-2.jpg) center no-repeat;
+	background-size: cover;
+}
+.banner_2>.banner_2_neizhezhao{
+	width: 100%;
+	height: 396px;
+	background: rgba(0,0,0,.2);
+	position: relative;
+}
+.banner_2>.banner_2_neizhezhao>ul>li{
+	width: 80%;
+	height: 270px;
+	/*background: red;*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.banner_2>.banner_2_neizhezhao>ul>li>.zi{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 70%;
+	color: white;
+	font-size: 15px;
+}
+.banner_2>.banner_2_neizhezhao>ul>li>.tu{
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.banner_2>.banner_2_neizhezhao>ul>li>.tu>img{
+	width: 50px;
+	height: 50px;
+}
+.banner_2>.banner_2_neizhezhao>ul>li>.zi_2{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*background: red;*/
+	color: white;
+	font: 12px;
+	text-align: center;
+}
+
+
+
+
+
+

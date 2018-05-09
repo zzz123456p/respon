@@ -1,0 +1,166 @@
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.lytc {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: url(../img/2.jpg) 0 15%;
+}
+
+.mask {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	background: rgba(0, 0, 0, .5);
+}
+
+.center-block1 {
+	position: relative;
+	height:240px;
+}
+
+.center-block1 .fontf {
+	
+	position: absolute;
+	top: 80px;
+	left: 130px;
+	font-size: 36px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.center-block1 .fontth {
+	position: absolute;
+	top: 110px;
+	left: 40px;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.leftcon {
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+}
+
+.leftcon ul {
+	width: 100%;
+	height: 500px;
+}
+
+.leftcon ul li {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 353px;
+	height: 290px;
+	border: 2px solid #efefef;
+}
+
+.leftcon ul li img {
+	display: block;
+	width: 347px;
+	height: 218px;
+	margin: 0 auto;
+}
+
+.leftcon ul li span.youji {
+	width: 347px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: #FFFFFF;
+}
+
+.lvcan {
+	font-size: 20px;
+	color: rgba(0, 0, 0);
+}
+
+.pkag {
+	color: #a9a9a9;
+	font-size: 10px;
+}
+
+.youji {
+	width: 326px;
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+	line-height: 22px;
+}
+
+.ditu {
+	height: 250px;
+	background: lightblue;
+}
+
+.zxyd {
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 239px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #e04f67;
+	border-radius: 5px;
+}
+
+.grayz {
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+	line-height: 14px;
+}
+
+.xing {
+	display: block;
+	float: left;
+	margin-left: 3px;
+	font-size: 10px;
+	color: #cc0101;
+}
+
+.kuang {
+	float: left;
+	margin-top: 3px;
+	width: 239px;
+	border: 1px solid rgb(212, 212, 212);
+	color: rgb(196, 196, 196);
+	height: 35px;
+	font-size: 14px;
+}
+
+.kuang1 {
+	margin-top: 3px;
+	border: 1px solid rgb(212, 212, 212);
+	color: rgb(196, 196, 196);
+	font-size: 14px;
+}
+
+.tijiao {
+	float: left;
+	margin-top: 20px;
+	width: 132px;
+	height: 33px;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #e04f67;
+	border: 1px solid #e04f67;
+}

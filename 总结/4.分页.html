@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!--一、默认分页  组件中的每个部分都很大，优点是容易点击、易缩放、点击区域大。
+            1.禁用和激活状态   链接在不同情况下可以定制。你可以给不能点击的链接添加 .disabled 类、给当前页添加 .active 类。
+            2.尺寸 .pagination-lg 或 .pagination-sm 类提供了额外可供选择的尺寸。
+     -->
+    <nav aria-label="Page navigation">
+        <!--尺寸变大-->
+        <ul class="pagination pagination-lg">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <!--三角-->
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <!--禁用-->
+            <li class="disabled"><a href="#">1</a></li>
+            <!--激活状态-->
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <!--三角-->
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+        <!--尺寸变小-->
+        <ul class="pagination pagination-sm">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <!--三角-->
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <!--禁用-->
+            <li class="disabled"><a href="#">1</a></li>
+            <!--激活状态-->
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <!--三角-->
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--二、翻页-->
+    <!--1.在默认的翻页中，链接居中对齐。-->
+    <nav aria-label="...">
+        <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+        </ul>
+    </nav>
+    <!--2.对齐链接-->
+    <nav aria-label="...">
+        <ul class="pager">
+            <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+            <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+        </ul>
+    </nav>
+    <!--3.可选的禁用状态   .disabled 类也可用于翻页中的链接-->
+    <nav aria-label="...">
+        <ul class="pager">
+            <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+            <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+        </ul>
+    </nav>
+</body>
+<script src="js/jquery-2.1.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

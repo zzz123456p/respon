@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/lvyoutaocan.css" />
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(function() {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+				$("#borderlan").load("borderlan.html");
+				//				$("#map").load("map.html");
+			})
+		</script>
+	</head>
+
+	<body>
+
+		<div class="lytc">
+			<div class="mask">
+				<div id="header"></div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-4 col-xs-4"></div>
+						<div class="center-block1 col-lg-4">
+							<span class="fontf">-旅游套餐-</span>
+							<span class="fontth">CITY TOURS/TOUR TICKETS/TOUR GUIDES</span>
+						</div>
+						<div class="col-lg-4 col-xs-4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<ul class="col-lg-8" style="background: #FFFFFF;">
+					<li class="col-lg-6" style="margin-top:40px;">
+						<img src="img/jianzhu2.jpg" style="width: 340px;height: 210px;">
+						<span class="white">
+						          <span class="one1">卢浮宫</span>
+						<span class="two1">客户评分：★★★★★</span>
+						</span>
+					</li>
+
+					<li class="col-lg-6" style="margin-top:40px;">
+						<img src="img/jian1.jpg" style="width: 340px;height: 210px;">
+						<span class="white">
+						         <span class="one1">蓬皮杜中心</span>
+						<span class="two1">客户评分：★★★★★</span>
+						</span>
+					</li>
+
+					<li class="col-lg-6" style="margin-top:40px;">
+						<img src="img/hu.jpg" style="width: 340px;height: 210px;">
+						<span class="white">
+						          <span class="one1">塞纳河</span>
+						<span class="two1">客户评分：★★★★★</span>
+						</span>
+					</li>
+
+					<li class="col-lg-6" style="margin-top:40px;">
+						<img src="img/jianzhu.jpg" style="width: 340px;height: 210px;">
+						<span class="white">
+					            <span class="one1">巴黎圣母院</span>
+						<span class="two1">客户评分：★★★★★</span>
+						</span>
+					</li>
+
+					<li class="col-lg-6" style="margin-top:40px;">
+						<img src="img/men.jpg" style="width: 340px;height: 210px;">
+						<span class="white">
+					            <span class="one1">凯旋门</span>
+						<span class="two1">客户评分：★★★★★</span>
+						</span>
+					</li>
+
+					<li class="col-lg-6" style="margin-top:40px;">
+						<img src="img/baita.jpg" style="width: 340px;height: 210px;">
+						<span class="white">
+					            <span class="one1">圣心大教堂</span>
+						<span class="two1">客户评分：★★★★★</span>
+						</span>
+					</li>
+
+				</ul>
+				<ul class="col-lg-4">
+					<div class="ditu" style="margin-top: 40px;">
+						<iframe src="map.html" width="" height=""></iframe>
+						<!--<div id="map"></div>-->
+					</div>
+
+					<div class="form-group col-lg-12 col-md-6 col-xs-12">
+						<div class="zxyd">在线预订</div>
+					</div>
+					
+					<form>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<span class="grayz">您的姓名</span>
+							<span class="xing">*</span>
+						</div>
+						
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<input type="text" class="kuang">
+						</div>
+
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<span class="grayz">您的电话</span>
+							<span class="xing">*</span>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<input type="text" class="kuang">
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<span class="grayz">目的地</span>
+							<span class="xing">*</span>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<select class="kuang">
+								<optgroup label="埃菲尔铁塔">
+									<option>埃菲尔铁塔</option>
+									<option>凡尔赛宫</option>
+									<option>塞纳河</option>
+									<option>卢浮宫</option>
+									<option>巴黎圣母院</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<span class="grayz">成人（12周岁以上）</span>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<select class="kuang">
+								<optgroup>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<span class="grayz">儿童（12周岁以下）</span>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<select class="kuang">
+								<optgroup>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<span class="grayz">备注</span>
+						</div>
+						<div class="form-group col-lg-12 col-md-6 col-xs-12">
+							<textarea class="kuang1" /></textarea>
+							<div>
+								<input type="submit" class="tijiao" value="提交">
+					
+					</div>
+                         </form>
+					</div>
+
+			</div>
+		</div>
+		<div id="footer"></div>
+		<div id="borderlan"></div>
+	</body>
+
+</html>

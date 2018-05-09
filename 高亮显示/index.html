@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			body {
+			
+				background:#245269;
+			}
+			body,
+			ul,
+			li,
+			p {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul,
+			ol {
+				list-style: none;
+			}
+			
+			.home-subjects-v2 {
+				height: 128px;
+				border-radius: 3px;
+				border: 1px solid #d3d3d3;
+				border-color: rgba(0, 0, 0, .12);
+				overflow: hidden;
+				width: 938px;
+				margin:200px auto;
+				background: #fff;
+			}
+			
+			.home-subjects-v2 ul {
+				width: 1000px;
+			}
+			
+			.home-subjects-v2 li {
+				width: 156px;
+				height: 128px;
+				float: left;
+				overflow: hidden;
+				transition: all .1s linear;
+			}
+			
+			.home-subjects-v2 li * {
+				transition: all .1s linear;
+			}
+			
+			.home-subjects-v2 li a {
+				width: 156px;
+				height: 128px;
+				display: block;
+				position: relative;
+				cursor: pointer;
+				text-decoration: none;
+				overflow: hidden;
+			}
+			
+			.home-subjects-v2 li a:hover{
+				position: absolute;
+			}
+			
+			.home-subjects-v2 li a:hover .mask{
+				filter: alpha(opacity=0);
+				opacity:0;
+				transition: opacity .2s ease-in;
+			}
+			
+			.home-subjects-v2 li img {
+				height: 72px;
+				width: 117px;
+				position: absolute;
+				bottom: 0;
+				right: -13px;
+			}
+			
+			.home-subjects-v2 li .line {
+				height: 128px;
+				width: 0;
+				font-size: 0;
+				border-right: 1px dashed #cacaca;
+				position: absolute;
+				right: 0;
+				top: 4px;
+			}
+			
+			.home-subjects-v2 li .info {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 136px;
+				padding: 4px 10px;
+			}
+			
+			.home-subjects-v2 li .info h3 {
+				font-size: 14px;
+				font-weight: 700;
+			}
+			
+			.home-subjects-v2 li .info p {
+				color: #868686;
+				font-size: 12px;
+				overflow: hidden;
+				width: 136px;
+				height: 22px;
+				line-height: 22px
+			}
+			
+			.home-subjects-v2 li .info p.more {
+				display: none;
+			}
+			
+			.home-subjects-v2 .mask {
+				height:128px;
+				width:156px;
+				display:block;
+				position:absolute;
+				top:0;
+				left:0;
+				background:#000;
+				filter: alpha(opacity=0);
+				opacity: 0;
+				transition: opacity .2s ease-in;
+				/*_display: none!important;*/
+
+			}
+			
+			.home-subjects-v2 .big {
+				width: 314px;
+			}
+			
+			.home-subjects-v2 .big a {
+				width: 314px;
+			}
+			
+			.home-subjects-v2 .big img {
+				width: 195px;
+				height: 120px;
+				right: 0;
+				bottom: 0;
+			}
+			
+			.home-subjects-v2 .big .info {
+				width: 294px;
+			}
+			
+			.home-subjects-v2 .big .info h3 {
+				font-size: 18px;
+			}
+			
+			.home-subjects-v2 .big .info p {
+				font-size: 14px;
+				width: 166px;
+			}
+			
+			
+			
+			.home-subjects-v2 .big .info p.more {
+				display: block;
+				font-size: 12px;
+				color:#ff2a5b;
+			}
+			
+			.home-subjects-v2 .big .mask {
+				width: 314px;
+			}
+			
+			.home-subjects-v2:hover .mask {
+				/*-ms-filter: "alpha(Opacity=75)";*/
+				filter: alpha(opacity=90);
+				opacity: 0.9;
+				transition: opacity .2s ease-in;
+			}
+		</style>
+
+		<script src="js/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<div id="subject" class="home-subjects-v2">
+			<ul>
+				<li class="big">
+					<a>
+						<img src="img/a1.jpg">
+						<div class="info">
+							<h3 style="color:#f62368">江水</h3>
+							<p>江南山水</p>
+							<p class="more">进入专题欣赏 &gt; </p>
+						</div>
+						<i class="mask"></i>
+					</a>
+				</li>
+				
+				<li>
+					<a>
+						<img src="img/a2.jpg">
+						<div class="info">
+							<h3 style="color:#ff578a">云烟</h3>
+							<p>云雾缭绕</p>
+							<p class="more">进入专题欣赏 &gt; </p>
+						</div>
+					
+						<i class="mask"></i>
+					</a>
+				</li>
+				
+				<li>
+					<a>
+						<img src="img/a3.jpg">
+						<div class="info">
+							<h3 style="color:#6d3fa7">雪山</h3>
+							<p>高原风光</p>
+							<p class="more">进入专题欣赏 &gt; </p>
+						</div>
+					 <i class="mask"></i>
+					</a>
+				</li>
+				<li>
+					<a>
+						<img src="img/a4.jpg">
+						<div class="info">
+							<h3 style="color:#d61939">温泉</h3>
+							<p>雪山温泉</p>
+							<p class="more">进入专题欣赏 &gt; </p>
+						</div>
+					<i class="mask"></i>
+					</a>
+				</li>
+				<li>
+					<a>
+						<img src="img/a5.jpg">
+						<div class="info">
+							<h3 style="color:#6f9400">麦田</h3>
+							<p>丰收季节</p>
+							<p class="more">进入专题欣赏 &gt; </p>
+						</div>
+						<i class="mask"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+
+			function heightlight(e) {
+				var list = $('#subject li');
+				var target = $(e.target).parents('li');
+				list.removeClass('big'); 
+				target.addClass('big');
+			}
+			(function() {
+				var outer = $('#subject');
+				outer.find('li').on('mouseover',heightlight);
+			})()
+		</script>
+	</body>
+
+</html>
